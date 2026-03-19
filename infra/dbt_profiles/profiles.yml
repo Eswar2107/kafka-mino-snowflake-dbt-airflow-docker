@@ -1,0 +1,13 @@
+dbt_stocks:
+  target: dev
+  outputs:
+    dev:
+      type: snowflake
+      account: KILWADQ-PH20134
+      user: ESWAR
+      password: Poojabrindha21
+      role: ACCOUNTADMIN
+      database: STOCKS_MDS
+      warehouse: COMPUTE_WH
+      schema: COMMON
+      threads: 1

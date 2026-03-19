@@ -1,0 +1,7 @@
+sources:
+  - name: common
+    database: stocks_mds
+    schema: common
+    tables:
+      - name: bronze_stock_quotes_raw
+
