@@ -37,29 +37,6 @@ Kafka → MinIO → Snowflake → dbt → Airflow
 
 ---
 
-## 📂 Project Structure
-real_time_stocks_mds/
-│
-├── dbt_stocks/
-│ ├── models/
-│ │ ├── bronze/
-│ │ ├── silver/
-│ │ ├── gold/
-│ ├── dbt_project.yml
-│
-├── infra/
-│ ├── dags/
-│ │ └── dbt_dag.py
-│ ├── dbt_profiles/
-│ │ └── profiles.yml
-│ ├── docker-compose.yml
-│
-├── producer/
-├── consumer/
-
-
----
-
 ## 🔄 Pipeline Flow
 
 1. Kafka streams real-time stock data  
